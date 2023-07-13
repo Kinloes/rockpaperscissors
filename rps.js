@@ -7,7 +7,7 @@ game()
 function game(){
 function getComputerChoice(){
     answer = (rps[(Math.floor(Math.random() * rps.length))])}
-let choice = prompt(`Lets play a game. Type "rock, paper, or scissors" `).toLowerCase()
+// <OBSOLETE> let choice = prompt(`Lets play a game. Type "rock, paper, or scissors" `).toLowerCase()
 getComputerChoice()
 console.log (answer)
 

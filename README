@@ -1,14 +1,3 @@
-This is my first project using JavaScript. It will be a simple rock paper scissors program without a UI. 
+ROCK PAPER SCISSORS GUI UPDATE
 
-I expect this to be quite a challenge as I familiarize myself with actually writing JS code from scratch and learning the syntax. However, I expect to finish this with a much greater understanding and appreciation for what JavaScript can do.
-
-Planning out the program with pseudocode
-The program needs to explain the rules to the user and allow for the specified inputs
-The program will have to randomly choose between rock, paper, and scissors
-The program will need to react to user inputs accordingly (Win, loss, tie text)
-The user needs to be able to re-run the program when a round finishes.
-
-**AFTER FINISHED PROJECT**
-I learned a huge amount from this project and I feel much much more confident after struggling through it initially.
-
-Now I have a clearer idea of not only the syntax of JavaScript, but what tools I have to solve problems.
+This project is a branch from my original rock paper scissors game to make it more user friendly by adding a simple user interface.
