@@ -13,3 +13,7 @@ button{
 #s1{
     background-color: darkkhaki;
 }
+#results{
+    padding-top: 16px;
+    font-size: larger;
+}

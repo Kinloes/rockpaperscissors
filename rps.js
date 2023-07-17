@@ -85,12 +85,18 @@ else if (answer == "paper"){
 function newRound(){
     getComputerChoice()
     console.log (answer)
-    const para = document.createElement('p');
-    //const del = document.getElementById('p');
-    //para.remove();
-    para.textContent = `You have ${wins} wins and ${losses} losses`;
+    let para = document.getElementById("results");
+    if (counter == 1){
+        para.textContent = `You have ${wins} wins and ${losses} losses`;
+        document.body.appendChild(para);
+        para.style.color = "blue";}
+    else {
+    //let paradel = para.textContent;
+    para.textContent = ``;
     document.body.appendChild(para);
-    para.style.color = "blue";
+    para.textContent = `You have ${wins} wins and ${losses} losses`;
+    document.body.appendChild(para)
+    }
 if (counter === 5){
     alert("That's a wrap!");
     if (wins >= losses){
