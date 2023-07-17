@@ -1,3 +1,10 @@
 ROCK PAPER SCISSORS GUI UPDATE
 
 This project is a branch from my original rock paper scissors game to make it more user friendly by adding a simple user interface.
+
+**UPDATE**
+This project re-make ended up being more difficult than I initially thought as a lot of the code I had initially didn't translate well to the UI I implemented.
+
+I also picked up on and fixed a few minor bugs that I didn't catch the first time. 
+
+Fortunately, this experience taught me more than nearly any other and I feel much more confident in my Javascript ability.
