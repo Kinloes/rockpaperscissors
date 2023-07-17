@@ -91,13 +91,12 @@ function newRound(){
         document.body.appendChild(para);
         para.style.color = "blue";}
     else {
-    //let paradel = para.textContent;
     para.textContent = ``;
     document.body.appendChild(para);
     para.textContent = `You have ${wins} wins and ${losses} losses`;
     document.body.appendChild(para)
     }
-if (counter === 5){
+/*if (counter === 5){
     alert("That's a wrap!");
     if (wins >= losses){
         alert("Congrats! You win!");
@@ -110,7 +109,8 @@ if (counter === 5){
     if (wins <= losses){
         alert("Sorry, you lose!");
         endGame();}
-}}
+}*/
+}
 
 //This function ends the script
 function endGame(){
