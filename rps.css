@@ -4,12 +4,12 @@ button{
     margin-right: 30px;
     margin-top: 50px;
 }
-.r1{
+#r1{
     background-color:darkgray
 }
-.p1{
+#p1{
     background-color: white;
 }
-.s1{
+#s1{
     background-color: darkkhaki;
 }
