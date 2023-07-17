@@ -17,3 +17,22 @@ button{
     padding-top: 16px;
     font-size: larger;
 }
+#gameOver{
+    font-size: 80px;
+    color: crimson;
+    background-color:cadetblue;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+#finalResults{
+    font-size: 36px;
+}
+#playAgain{
+    font-weight: 700;
+    margin-top: 50px;
+}
+#reply{
+    font-size: 20px;
+    color: green;
+    margin-bottom: 50px;
+}
